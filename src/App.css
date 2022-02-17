@@ -1,0 +1,21 @@
+.maths-toolbar {
+  width: 300px;
+}
+.span_symbol {
+  padding: 10px;
+  color: red;
+
+  font-size: 30px;
+  cursor: pointer;
+}
+.equations {
+  padding: 10px;
+  color: rgb(3, 3, 3);
+
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.simple {
+  height: 400px;
+}
