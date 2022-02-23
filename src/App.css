@@ -1,12 +1,54 @@
 .maths-toolbar {
-  width: 300px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.chars{
+  margin-left: 5px;
+  display:flex;
+  align-self: center;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  width:13px;
+}
+.Icon{
+  display:flex;
+  width:30px;
+  height: 30px;
+  margin-left:5px;
+  background-color: white;
+  align-items: center;
+  justify-content: center;
+  border-width: 12px;
+}
+.pop{
+  display: flex;
+  flex-direction: row;
+  width:140px;
+  justify-content: center;
+  align-items: center;
+  /* background-color:red;  */
+  flex-wrap: wrap;
+}
+.popMathField{
+  display: flex;
+  flex-direction: column;
+}
+.field{
+  margin-bottom: 20px;
+  align-self: center;
+}
+.ButtonX{
+  margin: 10px;
+  background-color:purple
 }
 .span_symbol {
-  padding: 10px;
-  color: red;
-
-  font-size: 30px;
+  margin-right: 5px;
+  color: black;
+  font-size: 17px;
   cursor: pointer;
+  margin-bottom: 5px; 
 }
 .equations {
   padding: 10px;
@@ -18,4 +60,5 @@
 
 .simple {
   height: 400px;
+  padding: 20px;
 }
